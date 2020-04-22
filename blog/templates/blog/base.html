@@ -1,0 +1,141 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link href='../../../blog/static/fonts/EuropeCond.eot' rel='stylesheet' type='text/css'>
+    <link href='../../static/css/fonts/ofont.ru_Agency FB Cyrillic.eot' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+    <title>GRAVITY</title>
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="row">
+                <div class="col">
+                    <div class="first__object">
+                        <img src="../../../media/images/img1.png" alt="" class="earrings">
+                        <ul class="list">
+                            <li>
+                                пирсинг
+                            </li>
+                            <li>
+                                серьги
+                            </li>
+                            <li>
+                                тоннели
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col">
+                    <a href="/"><img src="../../../media/images/logo.png" alt="" class="logo"></a>
+                </div>
+                <div class="col">
+                    <ul class="main__text">
+                        <li>
+                            <h1 class="heading__text">gravity</h1>
+                        </li>
+                        <li>
+                            <h3 class="subheading__text">accessories for life</h3>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul class="contact__text">
+                        <li><img src="../../../media/images/nav.png" />ул. к.маркса, 102а, 2 эт.</li>
+                        <li><img src="../../../media/images/clock.png" />пн-сб: 10:00-19:30</li>
+                        <li>вс: 11:00-18:30</li>
+                        <li><img src="../../../media/images/phone.png">+7 929 32 111 92</li>
+                        <li>подписаться</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <nav class="social_icon">
+            <ul class="nav nav-pills nav-justified">
+                <li class="nav-item">
+                    <a href="https://www.instagram.com/gravity_piercing/" class="nav-link" target="_blank">
+                        <img src="https://img.icons8.com/color/48/000000/instagram-new.png" />
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://vk.com/gravity_shop_krsk" target="_blank">
+                        <img src="https://img.icons8.com/color/48/000000/vk-com.png" />
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container-lg">
+        <div class="wpapper">
+            <div class="row">
+                {% block content %}
+                {% endblock %}
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h1 id="we__wait">Ждём Вас в нашем магазине:</h1>
+        <h1>
+        </h1>
+    </div>
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-2">
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../../../media/images/1.jpg" class="card-img-top" alt="фото магазина">
+                    <div class="card-body">
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../../../media/images/2.jpg" class="card-img-top" alt="фото магазина">
+                    <div class="card-body">
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../../../media/images/3.jpg" class="card-img-top" alt="фото магазина">
+                    <div class="card-body">
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="../../../media/images/4.jpg" class="card-img-top" alt="фото магазина">
+                    <div class="card-body">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <ul class="nav nav-pills nav-justified">
+            <li class="nav-item">
+                <a class="nav-link" href="#"> <img src="https://img.icons8.com/ios-filled/50/000000/address.png" />г. Красноярск ул. К. Маркса, д. 102 корп. А, 2 этаж</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="tel:79293211192"><img src="https://img.icons8.com/ios-filled/48/000000/ringer-volume.png"> +7 (929) 321-11-92</a>
+            </li>
+        </ul>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>
